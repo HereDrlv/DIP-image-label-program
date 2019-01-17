@@ -22,17 +22,17 @@
     <div id ='review-configuration-container' style = "padding: 20px 20px 20px 20px;">
   
       <div class="form-group">
-        <label for="exampleTextarea" title="(Which tagging format to Export to.)">Model Framework: </label>
+        <label for="exampleTextarea" title="(Which tagging format to Export to.)">模型框架: </label>
         <select id="format" class="form-control" >  </select>
       </div>
 
       <div class="form-group" id="remote-group">
-        <label for="Endpoint"> Review Enpoint</label>
+        <label for="Endpoint"> 监督终点</label>
         <input id="endpoint" class="form-control" type="text" style=" width:300px; display:inline-block;"  />
       </div>
 
       <div class="form-group" id="model-group">
-        <label for="Model"> Model Path</label>
+        <label for="Model"> 模型路径</label>
         <input id="model" class="form-control" type="text" style=" width:268px; display:inline-block;"  />
         <div class="file_selector" onclick="getModelFile()" >
           <svg id="icon-folder-plus" viewBox="0 0 32 32">
@@ -43,7 +43,7 @@
       </div>
 
       <div class="form-group" id="output-group" >
-          <label for="Out"> Output Path</label>
+          <label for="Out"> 输出路径</label>
           <input id="output" class="form-control" type="text" style=" width:268px; display:inline-block;"  />
           <div class="file_selector" onclick="getOutputFolder()" >
             <svg id="icon-folder-plus" viewBox="0 0 32 32">
@@ -53,8 +53,8 @@
           </div>
       </div>
 
-      <div id="reviewButton" class="btn btn-primary" style="display:inline-block;">Review</div>
-      <div id="cancelButton" class="btn btn-primary" style="display:inline-block;">Cancel</div>
+      <div id="reviewButton" class="btn btn-primary" style="display:inline-block;">开始</div>
+      <div id="cancelButton" class="btn btn-primary" style="display:inline-block;">取消</div>
 
 
     </div>        
